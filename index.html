@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Study Schedule</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            border: 3px solid #2c3e50;
+        }
+        th, td {
+            border: 2px solid #34495e;
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+        .morning {
+            background-color: #a8e6cf;
+        }
+        .afternoon {
+            background-color: #ffd93d;
+        }
+        .evening {
+            background-color: #b055ec;
+        }
+        .break {
+            background-color: #95a5a6;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table border="50">
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="3">Morning Session</th>
+            <th rowspan="2">Lunch Break</th>
+            <th colspan="3">Afternoon/Evening</th>
+        </tr>
+        <tr>
+            <th>8-10 AM</th>
+            <th>10:15-12 PM</th>
+            <th>Lab/Practice</th>
+            <th>2-4 PM</th>
+            <th>4:15-6 PM</th>
+            <th>Project Time</th>
+        </tr>
+        
+        <tr>
+            <td rowspan="2" class="morning">Monday</td>
+            <td>C Programming</td>
+            <td>Data Structures</td>
+            <td>LeetCode</td>
+            <td class="break" rowspan="6">12-2 PM<br>Daily Break</td>
+            <td>Python</td>
+            <td>MySql Queries</td>
+            <td>Debugging</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="morning">Core Theory Classes</td>
+            <td>Algorithms</td>
+            <td>Java</td>
+            <td>Project Coding</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="2" class="afternoon">Tuesday</td>
+            <td>Python</td>
+            <td>Algorithms</td>
+            <td>Coding Practice</td>
+            <td>Data Structures</td>
+            <td>MySql</td>
+            <td>Mini Project</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="afternoon">Hands-on Labs</td>
+            <td>Web Dev Intro</td>
+            <td>LeetCode</td>
+            <td>Portfolio Work</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="2" class="evening">Wednesday</td>
+            <td>MySql Database</td>
+            <td>Java</td>
+            <td>PyQt5 GUI</td>
+            <td>AI/ML Basics</td>
+            <td>Review All</td>
+            <td>Weekly Project</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="evening">Practical Sessions</td>
+            <td>DSA Practice</td>
+            <td>Coding Challenge</td>
+            <td>Documentation</td>
+        </tr>
+    </table>
+</body>
+</html>
